@@ -5,6 +5,7 @@ import Sobre from './pages/Sobre'
 import Home from './pages/Home'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import App from './App'
+import './index.css'
 
 const router = createBrowserRouter ([
   {
