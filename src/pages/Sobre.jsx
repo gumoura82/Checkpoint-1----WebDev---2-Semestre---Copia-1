@@ -1,5 +1,7 @@
+import TextboxSobre from "../components/Sobre_Textbox";
+
 export default function Sobre(){
     return(
-        <h1>Sobre</h1>
+        <TextboxSobre/>
     )
 }
