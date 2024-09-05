@@ -1,5 +1,7 @@
+import TextboxHome from "../components/Home_Boxtext";
+
 export default function Home(){
     return(
-        <h1>Home</h1>
+        <TextboxHome/>
     )
 }
