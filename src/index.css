@@ -81,11 +81,6 @@ nav ul li a:hover {
   margin-top: 10px;
 }
 
-.input-contacts-labels-inputs {
-  /* display: flex; */
-  
-}
-
 .input-contacts-labels-inputs label {
   font-size: 26px;
 }
@@ -188,6 +183,7 @@ nav ul li a:hover {
   padding: 4% 11%;
   background-color: #333333;
   color: white;
+  border: none;
 }
 
 .TxtImg button:hover{
@@ -215,6 +211,7 @@ nav ul li a:hover {
   padding: 24px 56px;
   background-color: #333333;
   color: white;
+  border: none;
 }
 
 .SobreTxt button:hover{
