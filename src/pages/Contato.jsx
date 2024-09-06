@@ -16,11 +16,11 @@ export default function Contato() {
                     </svg>
                 </div>
                 <div className="inputs-contacts">
-                    <div className="input-contacts-labels/inputs">
+                    <div className="input-contacts-labels-inputs">
                         <label htmlFor="nome">Nome:</label>
                         <input type="text" id="nome" />
                     </div>
-                    <div className="input-contacts-labels/inputs">
+                    <div className="input-contacts-labels-inputs">
                         <label htmlFor="mail">E-mail:</label>
                         <input type="mail" id="mail" />
                     </div>
