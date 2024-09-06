@@ -42,7 +42,7 @@ nav ul li a:hover {
 }
 
 .text-contact {
-  width: 30%;
+  width: 33%;
 }
 
 .imgs-contact img{
@@ -50,11 +50,50 @@ nav ul li a:hover {
 }
 
 .text-contact h1 {
-  width: 151%;
+  text-align: left;
+  width: 120%;
   font-size: 60px;
 }
 
 .inputs-contacts {
   display: flex;
   flex-direction: column;
+  width: 29%;
+}
+
+.inputs-contacts div input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+.button_contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 70%;
+  padding: 10px;
+  background-color: #6a74f9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button_contact:hover {
+  background-color: #5a64d9;
+  text-decoration: underline;
+}
+
+.input-contacts-labels-inputs-msg input{
+  height: 100px;
+
 }
