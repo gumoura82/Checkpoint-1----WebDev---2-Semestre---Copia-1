@@ -11,7 +11,7 @@ export default function TextboxHome(){
     ]
 
     return (
-        <div className="texto">
+        <div className="texto-2">
             <Textbox dados={MensagemHome} />
         </div>
     )

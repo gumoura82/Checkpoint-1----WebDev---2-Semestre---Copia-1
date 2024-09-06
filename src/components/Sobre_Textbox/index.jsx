@@ -11,7 +11,7 @@ export default function TextboxSobre(){
     ]
 
     return (
-        <div className="texto">
+        <div className="texto-1">
             <Textbox dados={MensagemSobre} />
         </div>
     )
