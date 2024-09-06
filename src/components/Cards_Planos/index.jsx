@@ -12,7 +12,9 @@ export default function Cards_Planos({ info }) {
             key={index}
             style={{ backgroundColor: informacao.color }}
           >
+            <div className="Plano_do_plano"  style={{ backgroundColor: informacao.color }}>
             <p>{informacao.plano}</p>
+            </div>
             <p>{informacao.usuario}</p>
             <p>{informacao.video}</p>
             <p>{informacao.usuario2}</p>

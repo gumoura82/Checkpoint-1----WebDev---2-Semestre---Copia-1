@@ -6,7 +6,8 @@ export default function Planos(){
            plano:"Individual",
            usuario: "1 Usuario",
            video:"10 Videos R$15",
-           opcao: "Cadastrar"
+           opcao: "Cadastrar",
+
         },
         {
             plano:"Profissional - Times",

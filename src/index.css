@@ -246,3 +246,28 @@ nav ul li a:hover {
 .img-1 {
   margin-right: 5%;
 }
+
+.PlanosTxt{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.card-planos{
+  border-radius: 16px;
+  border: 1px solid #EBE9E9;
+}
+.Plano_do_plano{
+  /* background-color:  #6975E8; */
+  width: 259.23px;
+  border: 1px solid #EBE9E9;
+  border-radius: 16px 16px 0 0;
+  height: 74px;
+
+}
+.Plano_do_plano p {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
