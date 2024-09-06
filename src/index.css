@@ -82,7 +82,8 @@ nav ul li a:hover {
 }
 
 .input-contacts-labels-inputs {
-  display: flex;
+  /* display: flex; */
+  
 }
 
 .input-contacts-labels-inputs label {
