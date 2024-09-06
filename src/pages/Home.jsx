@@ -4,15 +4,16 @@ import SocialMedia from "../components/SocialMedia";
 export default function Home() {
     return (
         <>
-        <div className="Menu">
+        <div className="menu">
             <div className="TxtImg">
-            <TextboxHome />
-            <img src="public/Hero image.png" alt="Hero Image" />
+                <TextboxHome />
+                <div className="img-textimg">
+                <img src="/Hero image.png" alt="Hero Image" />
+                </div>
             </div>
             <div className="SocialMidia">
-            <SocialMedia />
+                <SocialMedia />
             </div>
-                
         </div>
         </>
     )
