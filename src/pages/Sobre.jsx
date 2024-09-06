@@ -1,3 +1,4 @@
+import Planos from "../components/PLanos";
 import TextboxSobre from "../components/Sobre_Textbox";
 
 export default function Sobre() {
@@ -10,7 +11,7 @@ export default function Sobre() {
         <img src="public\Viseo Merge screen 1.png" alt="" />
         <img src="public\Saved 1.png" alt="" />
         </div>
-        
+        <Planos/>
         </div>
     )
 }
