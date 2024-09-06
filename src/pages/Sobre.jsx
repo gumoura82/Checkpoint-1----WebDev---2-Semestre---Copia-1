@@ -9,8 +9,8 @@ export default function Sobre() {
                     <TextboxSobre />
                 </div>
                 <div className="SobreImg">
-                    <img src="Viseo Merge screen 1.png" className="img-1" alt="Image 1" />
-                    <img src="Saved 1.png" className="img-2" alt="Image 2" />
+                    <img src="./Viseo Merge screen 1.png" className="img-1" alt="Image 1" />
+                    <img src="./Saved 1.png" className="img-2" alt="Image 2" />
                 </div>
             </div>
             <div>
