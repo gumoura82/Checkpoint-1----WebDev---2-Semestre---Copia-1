@@ -5,9 +5,15 @@ export default function Contato() {
                 <div className="text-contact">
                     <h1>Dúvidas e suporte, entre em contato:</h1>
                     <div className="imgs-contact">
+                        <a href="">
                         <img src="./Group 1000001749.png" alt="img-tt" />
+                        </a>
+                        <a href="">
                         <img src="./Group 1000001750.png" alt="img-insta" />
+                        </a>
+                        <a href="">
                         <img src="./Group 1000001751.png" alt="img-dc" />
+                        </a>
                     </div>
                 </div>
                 <div className="svg-linha">
