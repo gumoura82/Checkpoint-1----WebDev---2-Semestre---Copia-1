@@ -1,11 +1,11 @@
 import TextboxHome from "../components/Home_Boxtext";
-import SocialMedia from "../components/SocialMedia"
+import SocialMedia from "../components/SocialMedia";
 
-export default function Home(){
-    return(
+export default function Home() {
+    return (
         <>
-        <TextboxHome/>
-        <SocialMedia/>
+            <TextboxHome />
+            <SocialMedia />
         </>
     )
 }

@@ -30,6 +30,31 @@ nav ul li a:hover {
   text-decoration: underline #333333;
 } 
 
-.activate {
-  text-decoration: underline #333333;
+.contact-geral {
+  margin: 90px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.svg-linha svg{
+  padding: 0 20%;
+}
+
+.text-contact {
+  width: 30%;
+}
+
+.imgs-contact img{
+  margin-right: 15px;
+}
+
+.text-contact h1 {
+  width: 151%;
+  font-size: 60px;
+}
+
+.inputs-contacts {
+  display: flex;
+  flex-direction: column;
 }
