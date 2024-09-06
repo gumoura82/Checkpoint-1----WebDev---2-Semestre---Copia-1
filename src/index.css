@@ -286,6 +286,13 @@ nav ul li a:hover {
   background-color: #F4F2F2;
 }
 
+.input-sobre-plano-1 p{
+  padding-left: 25px;
+}
+.input-sobre-plano-2 p{
+  padding-left: 25px;
+}
+
 .button-sobre-planos-cadastro {
   padding: 8px 35.5%;
   border-radius: 6px;
@@ -297,7 +304,7 @@ nav ul li a:hover {
 
 .input-sobre-plano-promp {
   margin-left: 15px;
-  width: 100%;
+  width: 85%;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
@@ -305,4 +312,18 @@ nav ul li a:hover {
   box-sizing: border-box;
   font-size: 14px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tituloplanos{
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Planos h1{
+  margin-top: 10px;
+}
+
+.Planos {
+  padding-top: 4%;
 }

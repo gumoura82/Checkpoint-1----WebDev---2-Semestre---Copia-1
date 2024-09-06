@@ -14,6 +14,7 @@ export default function Sobre() {
                 </div>
             </div>
             <div className="Planos">
+            <h1 className="tituloplanos">Planos</h1>
                 <Planos />
             </div>
         </div>  
