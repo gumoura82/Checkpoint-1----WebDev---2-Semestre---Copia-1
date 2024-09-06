@@ -13,7 +13,7 @@ export default function Sobre() {
                     <img src="./Saved 1.png" className="img-2" alt="Image 2" />
                 </div>
             </div>
-            <div>
+            <div className="Planos">
                 <Planos />
             </div>
         </div>  

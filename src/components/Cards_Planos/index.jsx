@@ -7,18 +7,28 @@ export default function Cards_Planos({ info }) {
     return (
       <>
         {info.map((informacao, index) => (
-          <div
-            className="card-planos"
-            key={index}
-            style={{ backgroundColor: informacao.color }}
-          >
-            <p>{informacao.plano}</p>
-            <p>{informacao.usuario}</p>
-            <p>{informacao.video}</p>
-            <p>{informacao.usuario2}</p>
-            <p>{informacao.video2}</p>
+          <div className="card-planos" key={index}>
+            <div className="Plano_do_plano"  style={{ backgroundColor: informacao.color }}>
+              <p className="tituloplano">{informacao.plano}</p>
+            </div>
+            <div className="input-grupo">
+              <div className="input-sobre-plano-1">
+                <div>
+                <p style={{color: informacao.usernum}}>{informacao.usuario}</p>
+                </div>
+                <p className="input-sobre-plano-promp">{informacao.video}</p>
+              </div>
+              <div className="input-sobre-plano-2">
+                <div>
+                <p style={{color: informacao.usernum}}>{informacao.usuario2}</p>
+                </div>
+              <p className="input-sobre-plano-promp">{informacao.video2}</p>
+            </div>
+            </div>
             <img src={informacao.img} alt="" />
-            <p>{informacao.opcao}</p>
+            <div className="button-sobre-planos">
+             <button className="button-sobre-planos-cadastro" style={{backgroundColor: informacao.colorbutton, color: informacao.colorletter}}>{informacao.opcao}</button>
+            </div>
           </div>
         ))}
       </>

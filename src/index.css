@@ -243,3 +243,70 @@ nav ul li a:hover {
 .img-1 {
   margin-right: 5%;
 }
+
+.PlanosTxt{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.card-planos{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 16px;
+  border: 1px solid #EBE9E9;
+}
+.Plano_do_plano{
+  /* background-color:  #6975E8; */
+  width: 259.23px;
+  border: 1px solid #EBE9E9;
+  border-radius: 16px 16px 0 0;
+  height: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.Plano_do_plano p {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tituloplano {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.Planos {
+  background-color: #F4F2F2;
+}
+
+.button-sobre-planos {
+
+}
+
+.button-sobre-planos-cadastro {
+  padding: 8px 35.5%;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  align-items: center;
+}
+
+.input-sobre-plano-promp {
+  margin-left: 15px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
